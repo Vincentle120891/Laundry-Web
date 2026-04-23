@@ -1,0 +1,50 @@
+{
+  "app": {
+    "title": "Dịch Vụ Giặt Là",
+    "subtitle": "Giặt là chuyên nghiệp - Đón trả tận nơi"
+  },
+  "booking": {
+    "title": "Đặt Lịch Pickup",
+    "select_items": "Chọn Đồ",
+    "pickup_delivery": "Pickup & Giao Hàng",
+    "summary": "Tổng Quan Đơn Hàng",
+    "confirm": "Xác Nhận Đặt",
+    "pickup_time": "Giờ Pickup",
+    "delivery_time": "Giờ Giao",
+    "address": "Địa Chỉ",
+    "notes": "Ghi Chú Đặc Biệt"
+  },
+  "items": {
+    "count_one": "{{count}} món",
+    "count_other": "{{count}} món",
+    "shirt": "Áo sơ mi",
+    "pants": "Quần",
+    "dress": "Váy",
+    "bedding": "Chăn ga",
+    "shoes": "Giày",
+    "delicate": "Đồ mỏng manh",
+    "per_item": "Theo món",
+    "per_kg": "Theo kg",
+    "weight_estimate": "Ước lượng cân nặng"
+  },
+  "services": {
+    "wash_fold": "Giặt & Gấp",
+    "dry_clean": "Giặt khô",
+    "iron_only": "Chỉ là ủi",
+    "eco_wash": "Giặt sinh thái",
+    "stain_removal": "Tẩy vết bẩn"
+  },
+  "common": {
+    "next": "Tiếp theo",
+    "back": "Quay lại",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "language": "Ngôn ngữ",
+    "select_language": "Chọn ngôn ngữ"
+  }
+}

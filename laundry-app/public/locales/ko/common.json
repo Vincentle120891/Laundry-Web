@@ -1,0 +1,50 @@
+{
+  "app": {
+    "title": "세탁 서비스",
+    "subtitle": "전문 세탁 수거 및 배달"
+  },
+  "booking": {
+    "title": "수거 예약",
+    "select_items": "의류 선택",
+    "pickup_delivery": "수거 및 배달",
+    "summary": "주문 요약",
+    "confirm": "예약 확인",
+    "pickup_time": "수거 시간",
+    "delivery_time": "배달 시간",
+    "address": "주소",
+    "notes": "특별 요청사항"
+  },
+  "items": {
+    "count_one": "{{count}} 개",
+    "count_other": "{{count}} 개",
+    "shirt": "셔츠",
+    "pants": "바지",
+    "dress": "원피스",
+    "bedding": "침구류",
+    "shoes": "신발",
+    "delicate": "섬세한 의류",
+    "per_item": "개당",
+    "per_kg": "kg 당",
+    "weight_estimate": "무게 추정"
+  },
+  "services": {
+    "wash_fold": "세탁 및 접기",
+    "dry_clean": "드라이클리닝",
+    "iron_only": "다림만",
+    "eco_wash": "친환경 세탁",
+    "stain_removal": "얼룩 제거"
+  },
+  "common": {
+    "next": "다음",
+    "back": "이전",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "수정",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "language": "언어",
+    "select_language": "언어 선택"
+  }
+}

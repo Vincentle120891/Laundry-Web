@@ -1,0 +1,77 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Compiled CSS/JS
+*.min.js
+*.min.css
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# ESLint
+eslint.config.js
+
+# PostCSS
+postcss.config.js
+
+# Tailwind
+tailwind.config.js
+
+# Configuration files that might contain secrets
+config/
+settings/
+```

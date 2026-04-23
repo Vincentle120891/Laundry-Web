@@ -1,0 +1,50 @@
+{
+  "app": {
+    "title": "Laundry Service",
+    "subtitle": "Professional laundry pickup & delivery"
+  },
+  "booking": {
+    "title": "Book a Pickup",
+    "select_items": "Select Items",
+    "pickup_delivery": "Pickup & Delivery",
+    "summary": "Order Summary",
+    "confirm": "Confirm Booking",
+    "pickup_time": "Pickup Time",
+    "delivery_time": "Delivery Time",
+    "address": "Address",
+    "notes": "Special Instructions"
+  },
+  "items": {
+    "count_one": "{{count}} item",
+    "count_other": "{{count}} items",
+    "shirt": "Shirt",
+    "pants": "Pants",
+    "dress": "Dress",
+    "bedding": "Bedding",
+    "shoes": "Shoes",
+    "delicate": "Delicate Items",
+    "per_item": "Per Item",
+    "per_kg": "Per Kg",
+    "weight_estimate": "Weight Estimate"
+  },
+  "services": {
+    "wash_fold": "Wash & Fold",
+    "dry_clean": "Dry Clean",
+    "iron_only": "Iron Only",
+    "eco_wash": "Eco Wash",
+    "stain_removal": "Stain Removal"
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "language": "Language",
+    "select_language": "Select Language"
+  }
+}
