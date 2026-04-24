@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { BookingState, BookingItem, TimeSlot, Address } from '../types';
+import type { BookingState, BookingItem, TimeSlot, Address } from '../types';
 
 interface BookingStore extends BookingState {
   addItem: (item: BookingItem) => void;

@@ -7,7 +7,7 @@ interface LanguageSwitcherProps {
 }
 
 export function LanguageSwitcher({ onLanguageChange }: LanguageSwitcherProps) {
-  const { t, locale } = useTranslation();
+  const { locale } = useTranslation();
   const { changeLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
 

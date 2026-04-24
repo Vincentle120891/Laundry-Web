@@ -9,7 +9,15 @@ interface TimeSlotPickerProps {
 
 // Mock time slots - in production, fetch from API
 const generateTimeSlots = (startDate: Date) => {
-  const slots = [];
+  const slots: Array<{
+    id: string;
+    date: string;
+    startTime: string;
+    endTime: string;
+    maxCapacity: number;
+    currentBookings: number;
+    isActive: boolean;
+  }> = [];
   for (let i = 0; i < 7; i++) {
     const date = new Date(startDate);
     date.setDate(date.getDate() + i);
