@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useTranslation } from '../i18n';
 import { useBookingStore } from '../store/bookingStore';
 import { SERVICE_ITEMS, CATEGORIES, calculateTotalPrice, formatCurrency } from '../utils/constants';
-import type { BookingItem } from '../types';
 
 interface ItemSelectorProps {
   onComplete?: () => void;

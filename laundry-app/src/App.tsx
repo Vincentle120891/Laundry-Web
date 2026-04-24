@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useTranslation, initI18n } from './i18n';
-import { useLanguage } from './hooks/useLanguage';
 import { useBookingStore } from './store/bookingStore';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { ItemSelector } from './components/ItemSelector';
@@ -65,7 +64,7 @@ function App() {
 
         <div className="max-w-4xl mx-auto px-4 pb-4">
           <div className="flex items-center gap-2">
-            {stepTitles.map((title, index) => (
+            {stepTitles.map((_, index) => (
               <div key={index} className="flex items-center flex-1">
                 <div
                   className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium transition-colors ${

@@ -37,7 +37,7 @@ export function BookingSummary({ onSubmit }: BookingSummaryProps) {
             const serviceItem = SERVICE_ITEMS.find(si => si.id === item.serviceItemId);
             if (!serviceItem) return null;
             
-            const itemName = item.serviceItemId[locale as 'en' | 'vi' | 'ko'] || serviceItem.name.en;
+            const itemName = serviceItem.name[locale as 'en' | 'vi' | 'ko'] || serviceItem.name.en;
             const price = serviceItem.pricingType === 'per_item'
               ? serviceItem.basePrice * item.quantity
               : serviceItem.basePrice * (item.estimatedWeightKg || 1);
