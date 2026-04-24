@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useTranslation } from '../../i18n';
-import { useLanguage } from '../../hooks/useLanguage';
+import { useTranslation } from '../i18n';
+import { useLanguage } from '../hooks/useLanguage';
 
 interface LanguageSwitcherProps {
   onLanguageChange?: (locale: 'en' | 'vi' | 'ko') => void;

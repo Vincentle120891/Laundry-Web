@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useTranslation } from '../../i18n';
-import { useBookingStore } from '../../store/bookingStore';
+import { useTranslation } from '../i18n';
+import { useBookingStore } from '../store/bookingStore';
 
 interface TimeSlotPickerProps {
   type: 'pickup' | 'delivery';
