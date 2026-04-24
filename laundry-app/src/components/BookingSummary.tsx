@@ -1,6 +1,6 @@
-import { useTranslation } from '../../i18n';
-import { useBookingStore } from '../../store/bookingStore';
-import { SERVICE_ITEMS, calculateTotalPrice, formatCurrency } from '../../utils/constants';
+import { useTranslation } from '../i18n';
+import { useBookingStore } from '../store/bookingStore';
+import { SERVICE_ITEMS, calculateTotalPrice, formatCurrency } from '../utils/constants';
 
 interface BookingSummaryProps {
   onSubmit?: () => void;
